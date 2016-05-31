@@ -1,4 +1,16 @@
 Rails.application.routes.draw do
+
+  resources :hotels
+
+  # get "hotels", to: "hotels#index"
+  # get "hotels/:id", to: "hotels#show"
+  # get "hotels/new", to: "hotels#new"
+  # post "hotels", to: "hotels#create"
+  # get "hotels/:id/edit", to: "hotels#edit"
+  # patch "hotels/:id", to: "hotels#update"
+  # delete "hotels/:id", to: "hotels#destroy"
+
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
